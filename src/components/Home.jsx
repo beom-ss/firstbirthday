@@ -57,12 +57,12 @@ const Home = () => {
             className='home__text-block'
           >
             <motion.h1 variants={eachVariants} className='home__title'>
-              태오의
+              채희의
               <br />첫 돌잔치 <span className='home__palm'>👋🏻</span>
             </motion.h1>
 
             <motion.h2 variants={eachVariants} className='home__subtitle'>
-              9.17 (일) 오전 11시, <a href='#location'>Boda658</a>
+              2.8 (일) 오후 12시, <a href='#location'>테이블린 다산점</a>
             </motion.h2>
 
             <motion.div variants={eachVariants} className='button-group'>

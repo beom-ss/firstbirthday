@@ -1,17 +1,17 @@
 import React from 'react';
 import './Location.css';
-import cafeImage from '../assets/boda658.jpg';
+import cafeImage from '../assets/tablelin.png';
 import { HiOutlineMapPin } from 'react-icons/hi2';
 
 const Location = () => {
   return (
     <section className='location__container' id='location'>
       <div>
-        <h2 className='section__title'>Boda658</h2>
+        <h2 className='section__title'>테이블린 다산점</h2>
         <span className='section__subtitle'>
-          경기 광주시 초월읍 현산안길 34 (우)12728
+          경기 남양주시 다산순환로20 현대프리미어캠퍼스몰 E동 1층 33호
           <br />
-          (경기 광주시 초월읍 지월리 658-1)
+          (경기 남양주시 다산동 6143)
         </span>
       </div>
 
@@ -24,7 +24,7 @@ const Location = () => {
       <div className='location-button-group-wrapper'>
         <div className='button-group'>
           <a
-            href='https://naver.me/xtWvjTGI'
+            href='https://naver.me/F884SPLJ'
             target='_blank'
             rel='noreferrer'
             className='button button-primary button--flex'
@@ -34,7 +34,7 @@ const Location = () => {
           </a>
 
           <a
-            href='https://place.map.kakao.com/254406486'
+            href='https://place.map.kakao.com/814738688'
             target='_blank'
             rel='noreferrer'
             className='button button-reverse button--flex'

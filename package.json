@@ -2,7 +2,7 @@
   "name": "simple-invitation",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://beom-ss.github.io/firstbirthday",
   "dependencies": {
     "@fontsource/east-sea-dokdo": "^5.0.7",
     "@testing-library/jest-dom": "^5.17.0",
