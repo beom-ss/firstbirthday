@@ -1,30 +1,35 @@
-# Simple Invitation
+# 아기 돌잔치 초대장
 
-[Create React App](https://github.com/facebook/create-react-app)을 이용하여 구성하였습니다만, 실제 리액트의 기능은 useState만을 사용하고 있습니다. (리액트 기능 최소화, Photo 컴포넌트의 Image Lazy Loading 시에만 사용)
+GitHub Pages로 호스팅되는 모바일 최적화 돌잔치 초대장입니다.
 
-대부분 CSS 기능으로 동작된다고 보면 됩니다.
+## 설정 방법
 
-![Shadow-Series-Apple-iDevices-V2](https://github.com/emoket/simple-invitation/assets/8438711/6106fbd6-c6db-4da8-b1f7-97f6e37ab1dd)
+### 1. 네이버 지도 API 키 발급
+1. [네이버 클라우드 플랫폼](https://www.ncloud.com/)에서 회원가입
+2. AI·NAVER API > Application 등록
+3. Maps > Web Dynamic Map 선택
+4. Client ID 복사
 
-[Demo](https://teo-invitation.vercel.app/)
+### 2. 설정 변경
+`index.html` 파일에서:
+- `YOUR_CLIENT_ID`를 발급받은 Client ID로 변경
+- 아기 이름, 날짜, 장소 정보 수정
 
-## Features
+`script.js` 파일에서:
+- `targetDate`: 돌잔치 날짜 변경
+- 좌표값 (37.5665, 126.9780): 실제 장소 좌표로 변경
 
-- 데스크탑부터 모바일까지 반응형 디자인
-- framer-motion을 이용한 랜딩 페이지의 부드러운 모션 효과
-- 사진이 쌓이는 효과의 포토 갤러리 (Lazy loading)
+### 3. 사진 추가
+`images/` 폴더에 다음 파일들을 추가:
+- `baby1.jpg`: 메인 사진
+- `baby2.jpg`, `baby3.jpg`, `baby4.jpg`: 갤러리 사진
 
-## How to use
+### 4. GitHub Pages 배포
+1. GitHub 저장소 생성
+2. Settings > Pages > Source를 `main` 브랜치로 설정
+3. `https://username.github.io/repository-name` 으로 접속
 
-1. 포토갤러리에 사용할 이미지는 public/images/ 폴더에 photo_1.jpg 과 같이 위치 시킵니다.
-2. 사진 갯수를 아래 `PHOTO_COUNT` 변수에 기록합니다.
-3. (옵션) 포개어지는 사진의 각도를 조정하고자 할 경우 `DEGREE_RANGE` 값을 변경합니다. (10 권장)
-
-```javascript
-// components/Photo.jsx 내 설정값
-
-// 사진 갯수 설정값
-const PHOTO_COUNT = 6;
-// 포개어지는 사진의 각도 범위
-const DEGREE_RANGE = 10;
-```
+## 좌표 찾는 방법
+1. [네이버 지도](https://map.naver.com)에서 장소 검색
+2. 주소 복사 후 우클릭 > "여기가 궁금해요" 클릭
+3. 위도/경도 확인
