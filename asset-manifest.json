@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/firstbirthday/static/css/main.450cce82.css",
-    "main.js": "/firstbirthday/static/js/main.5a57dd3e.js",
-    "static/media/boda658.jpg": "/firstbirthday/static/media/boda658.e311c4b36c3742041589.jpg",
-    "static/media/profile.jpg": "/firstbirthday/static/media/profile.f2e488fbc337985d29ae.jpg",
+    "main.css": "/firstbirthday/static/css/main.4c89d341.css",
+    "main.js": "/firstbirthday/static/js/main.e695af6b.js",
+    "static/media/profile-about.jpeg": "/firstbirthday/static/media/profile-about.c3f3ae62f9cea4ed41ab.jpeg",
+    "static/media/profile-home.jpeg": "/firstbirthday/static/media/profile-home.cc63715223100237e606.jpeg",
     "static/media/east-sea-dokdo-110-400-normal.woff": "/firstbirthday/static/media/east-sea-dokdo-110-400-normal.dc0c78a94478839b47fc.woff",
     "static/media/east-sea-dokdo-113-400-normal.woff": "/firstbirthday/static/media/east-sea-dokdo-113-400-normal.3b95bd749458a10f27cb.woff",
     "static/media/east-sea-dokdo-115-400-normal.woff": "/firstbirthday/static/media/east-sea-dokdo-115-400-normal.07b52874c0e5c418cf7c.woff",
@@ -46,6 +46,7 @@
     "static/media/east-sea-dokdo-101-400-normal.woff": "/firstbirthday/static/media/east-sea-dokdo-101-400-normal.d755cc34c9461365b148.woff",
     "static/media/east-sea-dokdo-97-400-normal.woff": "/firstbirthday/static/media/east-sea-dokdo-97-400-normal.d320913e2554ce7b3135.woff",
     "static/media/east-sea-dokdo-102-400-normal.woff2": "/firstbirthday/static/media/east-sea-dokdo-102-400-normal.69f67cf5616e2406b9c5.woff2",
+    "static/media/tablelin.png": "/firstbirthday/static/media/tablelin.6c8699298c10d63004da.png",
     "static/media/east-sea-dokdo-100-400-normal.woff": "/firstbirthday/static/media/east-sea-dokdo-100-400-normal.12284f7f9c2f85ffccef.woff",
     "static/media/east-sea-dokdo-101-400-normal.woff2": "/firstbirthday/static/media/east-sea-dokdo-101-400-normal.feda4114e7adc0473fa4.woff2",
     "static/media/east-sea-dokdo-100-400-normal.woff2": "/firstbirthday/static/media/east-sea-dokdo-100-400-normal.7ede31c1506ea0b917ae.woff2",
@@ -187,11 +188,11 @@
     "static/media/east-sea-dokdo-95-400-normal.woff": "/firstbirthday/static/media/east-sea-dokdo-95-400-normal.144ce47b7a1f085d8742.woff",
     "static/media/east-sea-dokdo-95-400-normal.woff2": "/firstbirthday/static/media/east-sea-dokdo-95-400-normal.276fa8d527ee3b02479a.woff2",
     "index.html": "/firstbirthday/index.html",
-    "main.450cce82.css.map": "/firstbirthday/static/css/main.450cce82.css.map",
-    "main.5a57dd3e.js.map": "/firstbirthday/static/js/main.5a57dd3e.js.map"
+    "main.4c89d341.css.map": "/firstbirthday/static/css/main.4c89d341.css.map",
+    "main.e695af6b.js.map": "/firstbirthday/static/js/main.e695af6b.js.map"
   },
   "entrypoints": [
-    "static/css/main.450cce82.css",
-    "static/js/main.5a57dd3e.js"
+    "static/css/main.4c89d341.css",
+    "static/js/main.e695af6b.js"
   ]
 }
