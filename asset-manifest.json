@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/firstbirthday/static/css/main.4c89d341.css",
-    "main.js": "/firstbirthday/static/js/main.e695af6b.js",
-    "static/media/profile-about.jpeg": "/firstbirthday/static/media/profile-about.c3f3ae62f9cea4ed41ab.jpeg",
-    "static/media/profile-home.jpeg": "/firstbirthday/static/media/profile-home.cc63715223100237e606.jpeg",
+    "main.css": "/firstbirthday/static/css/main.4e01bfd9.css",
+    "main.js": "/firstbirthday/static/js/main.a1e256bc.js",
+    "static/media/profile-about.jpeg": "/firstbirthday/static/media/profile-about.30faa4e46d41f4021e90.jpeg",
+    "static/media/profile-home.jpeg": "/firstbirthday/static/media/profile-home.4915f09b939040723680.jpeg",
     "static/media/east-sea-dokdo-110-400-normal.woff": "/firstbirthday/static/media/east-sea-dokdo-110-400-normal.dc0c78a94478839b47fc.woff",
     "static/media/east-sea-dokdo-113-400-normal.woff": "/firstbirthday/static/media/east-sea-dokdo-113-400-normal.3b95bd749458a10f27cb.woff",
     "static/media/east-sea-dokdo-115-400-normal.woff": "/firstbirthday/static/media/east-sea-dokdo-115-400-normal.07b52874c0e5c418cf7c.woff",
@@ -188,11 +188,11 @@
     "static/media/east-sea-dokdo-95-400-normal.woff": "/firstbirthday/static/media/east-sea-dokdo-95-400-normal.144ce47b7a1f085d8742.woff",
     "static/media/east-sea-dokdo-95-400-normal.woff2": "/firstbirthday/static/media/east-sea-dokdo-95-400-normal.276fa8d527ee3b02479a.woff2",
     "index.html": "/firstbirthday/index.html",
-    "main.4c89d341.css.map": "/firstbirthday/static/css/main.4c89d341.css.map",
-    "main.e695af6b.js.map": "/firstbirthday/static/js/main.e695af6b.js.map"
+    "main.4e01bfd9.css.map": "/firstbirthday/static/css/main.4e01bfd9.css.map",
+    "main.a1e256bc.js.map": "/firstbirthday/static/js/main.a1e256bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c89d341.css",
-    "static/js/main.e695af6b.js"
+    "static/css/main.4e01bfd9.css",
+    "static/js/main.a1e256bc.js"
   ]
 }
