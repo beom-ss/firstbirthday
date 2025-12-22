@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/firstbirthday/static/css/main.991e2b15.css",
-    "main.js": "/firstbirthday/static/js/main.bb0008ab.js",
+    "main.js": "/firstbirthday/static/js/main.608611eb.js",
     "static/media/boda658.jpg": "/firstbirthday/static/media/boda658.e311c4b36c3742041589.jpg",
     "static/media/profile.jpg": "/firstbirthday/static/media/profile.f2e488fbc337985d29ae.jpg",
     "static/media/east-sea-dokdo-110-400-normal.woff": "/firstbirthday/static/media/east-sea-dokdo-110-400-normal.dc0c78a94478839b47fc.woff",
@@ -188,10 +188,10 @@
     "static/media/east-sea-dokdo-95-400-normal.woff2": "/firstbirthday/static/media/east-sea-dokdo-95-400-normal.276fa8d527ee3b02479a.woff2",
     "index.html": "/firstbirthday/index.html",
     "main.991e2b15.css.map": "/firstbirthday/static/css/main.991e2b15.css.map",
-    "main.bb0008ab.js.map": "/firstbirthday/static/js/main.bb0008ab.js.map"
+    "main.608611eb.js.map": "/firstbirthday/static/js/main.608611eb.js.map"
   },
   "entrypoints": [
     "static/css/main.991e2b15.css",
-    "static/js/main.bb0008ab.js"
+    "static/js/main.608611eb.js"
   ]
 }
