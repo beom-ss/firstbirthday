@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Photo.css';
 
-const PHOTO_COUNT = 17;
+const PHOTO_COUNT = 14;
 
 const Photo = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
