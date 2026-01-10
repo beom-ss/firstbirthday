@@ -23,7 +23,7 @@ const About = () => {
         <div className='about__box'>
           <LiaBabySolid size={25} />
           <span className='about__subtitle'>키/몸무게</span>
-          <h3 className='about__title'>70cm/9kg</h3>
+          <h3 className='about__title'>71cm/9.1kg</h3>
         </div>
 
         <div className='about__box'>
