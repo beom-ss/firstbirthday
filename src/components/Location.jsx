@@ -16,8 +16,8 @@ const Location = () => {
         <div className='section__parking'>
           <h3 className='section__parking-title'>주차 안내</h3>
           <p className='section__parking-content'>
-            B1, B2층 이용 시: CGV를 통과하여 1층<br />
-            B3, B4층 이용 시: E동 주차 후 1층
+            B1, B2: CGV를 통해 1층으로 올라오세요.<br />
+            B3, B4: E동 앞 주차 후 1층으로 올라오세요.
           </p>
         </div>
       </div>
