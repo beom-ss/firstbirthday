@@ -26,3 +26,16 @@
     width: 350px;
   }
 }
+
+.section__parking {
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+.section__parking-title {
+  font-size: var(--normal-font-size);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
