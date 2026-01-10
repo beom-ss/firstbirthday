@@ -13,11 +13,13 @@ const Location = () => {
           <br />
           (경기 남양주시 다산동 6143)
         </span>
-        <p className='section__parking'>
+        <div className='section__parking'>
           <h3 className='section__parking-title'>주차 안내</h3>
-          B1, B2층 이용 시: CGV를 통과하여 1층<br />
-          B3, B4층 이용 시: E동 주차 후 1층
-        </p>
+          <p className='section__parking-content'>
+            B1, B2층 이용 시: CGV를 통과하여 1층<br />
+            B3, B4층 이용 시: E동 주차 후 1층
+          </p>
+        </div>
       </div>
 
       {/* Map Image */}
