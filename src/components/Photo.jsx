@@ -47,7 +47,7 @@ const Photo = () => {
             <div className='slide' key={i}>
               <img
                 src={`${process.env.PUBLIC_URL}/images/photo_${i + 1}.jpg`}
-                alt={`photo ${i + 1}`}
+                alt={`채희 ${i + 1}`}
               />
             </div>
           ))}
