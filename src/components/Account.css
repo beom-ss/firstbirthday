@@ -1,0 +1,73 @@
+.account__container {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.account__cards {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.account__card {
+  width: 280px;
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.account__card:hover {
+  background-color: var(--body-color);
+}
+
+.account__label {
+  font-size: var(--text-xl);
+  color: var(--text-color-light);
+}
+
+.account__name {
+  font-size: var(--text-4xl);
+  font-weight: var(--font-medium);
+}
+
+.account__info {
+  font-size: var(--text-xl);
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.account__copy {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--text-color);
+  border-radius: 0.5rem;
+  background: transparent;
+  cursor: pointer;
+  font-size: var(--text-lg);
+  transition: background-color 0.2s;
+}
+
+.account__copy:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+@media screen and (max-width: 640px) {
+  .account__card {
+    width: 100%;
+    max-width: 320px;
+  }
+}

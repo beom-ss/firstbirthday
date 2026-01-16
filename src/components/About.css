@@ -6,6 +6,27 @@
   align-items: center;
 }
 
+.about__parents {
+  font-size: var(--text-6xl);
+  font-family: var(--special-font);
+  color: var(--text-color-light);
+  margin-bottom: -4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about__parents {
+    font-size: var(--text-5xl);
+    margin-bottom: -3.5rem;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .about__parents {
+    font-size: var(--text-4xl);
+    margin-bottom: -3rem;
+  }
+}
+
 .grid__wrapper {
   grid-template-columns: repeat(2, max-content);
   gap: 0.75rem;

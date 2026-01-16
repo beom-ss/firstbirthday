@@ -7,7 +7,8 @@ import { LiaBabySolid } from 'react-icons/lia';
 const About = () => {
   return (
     <section className='about__container' id='about'>
-      <h2 className='section__title'>채희를 소개합니다.</h2>
+      <p className='about__parents'>아빠 이범석 · 엄마 권서희의 딸</p>
+      <h2 className='section__title'>이채희를 소개합니다.</h2>
 
       {/* Grid 4 x 4 */}
       <div className='grid__wrapper grid'>
